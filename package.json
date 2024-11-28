@@ -1,0 +1,25 @@
+{
+  "name": "netgen-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Syed Mohsin Ali Naqvi",
+  "license": "ISC",
+  "description": "Quick Start application template for Twilio Voice JavaScript SDK on Node.js",
+  "dependencies": {
+    "@twilio/voice-sdk": "^2.12.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "twilio": "^5.3.6"
+  }
+}
