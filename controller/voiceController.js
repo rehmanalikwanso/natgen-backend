@@ -38,7 +38,7 @@ exports.tokenGenerator = function tokenGenerator() {
 
 exports.voiceResponse = function voiceResponse(requestBody) {
   const toNumberOrClientName = requestBody.To;
-  const callerId = config.callerId;
+  const callerId = "+13092486821";
   const twiml = new VoiceResponse();
 
   // If the request to the /voice endpoint is TO your Twilio Number,
